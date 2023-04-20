@@ -17,6 +17,7 @@ dns-server = https://doh.pub/dns-query, https://dns.alidns.com/dns-query
 
 
 # 手工定义的 Proxy 列表
+DOMAIN-SUFFIX,awook.top,Proxy
 #TED
 DOMAIN-SUFFIX,tedcdn.com,Proxy
 #Telegram
