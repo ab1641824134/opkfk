@@ -1,1 +1,0 @@
-trojan://1641824134@kr.awook.top:443?security=tls&type=tcp&headerType=none#%E9%9F%A9%E5%9B%BD
