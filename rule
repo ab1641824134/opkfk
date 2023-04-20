@@ -34232,7 +34232,6 @@ DOMAIN-SUFFIX,.zzxmcp.com,Reject
 DOMAIN-SUFFIX,.zzzhuoxiaqu.online,Reject
 DOMAIN-SUFFIX,100.pncdn.cn,Reject
 IP-CIDR,174.123.15.43/32,Reject
-DOMAIN-SUFFIX,17u.cn,Reject
 DOMAIN-SUFFIX,2008xxx.com,Reject
 DOMAIN-SUFFIX,3.ssqzj.com,Reject
 DOMAIN-SUFFIX,33.pcpop.com,Reject
