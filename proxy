@@ -1,7 +1,4 @@
-trojan://1641824134@kr.awook.top:443?security=tls&type=tcp&headerType=none#%E9%9F%A9%E5%9B%BD
-vless://02a0a5b8-a4c0-42b5-b534-88c75419960a@45.143.233.189:443?encryption=none&flow=xtls-rprx-vision&security=tls&sni=pan.awook.top&alpn=http%2F1.1&type=tcp&headerType=none#v.ps-JP
 vless://a5f6b01c-ff44-4517-b8ca-1d9ff80050ce@us.awook.top:443?encryption=none&flow=xtls-rprx-vision&security=tls&sni=us.awook.top&alpn=http%2F1.1&type=tcp&headerType=none#%E7%BE%8E%E5%9B%BD-CC
-vless://bm9uZTo4NDc1ZTI1Zi02ZGUwLTQwOTQtOTQ4MS05ZWQ5MGY0MWFhZWZAaGsuYXdvb2sudG9wOjQ0Mw?remarks=AWS-HK&obfs=none&tls=1&peer=hk.awook.top
-trojan://1641824134@jp.awook.top:443#jp.awook.top%3A443
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpmNTQ5NmEyMi1mYTE0LTRmY2YtYmY1Mi01N2M1MDczMWM0MWY=@120.232.140.73:17201#%F0%9F%87%AD%F0%9F%87%B0test%20%E5%B9%BF%E5%8F%B0
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpmNTQ5NmEyMi1mYTE0LTRmY2YtYmY1Mi01N2M1MDczMWM0MWY=@120.232.140.73:17121#%F0%9F%87%AD%F0%9F%87%B0test%20%E5%B9%BF%E6%B8%AF
+vless://02a0a5b8-a4c0-42b5-b534-88c75419960a@45.143.233.189:443?encryption=none&flow=xtls-rprx-vision&security=tls&sni=pan.awook.top&alpn=http%2F1.1&type=tcp&headerType=none#v.ps-JP
+vless://8475e25f-6de0-4094-9481-9ed90f41aaef@hk.awook.top:443?encryption=none&security=tls&sni=hk.awook.top&alpn=http%2F1.1&type=tcp&headerType=none#AWS-%E9%A6%99%E6%B8%AF
+vless://46c550b2-d00d-4034-8468-3ee6293c4ce0@jp.awook.top:443?encryption=none&flow=xtls-rprx-vision&security=tls&sni=jp.awook.top&alpn=http%2F1.1&type=tcp&headerType=none#AWS-%E6%97%A5%E6%9C%AC
