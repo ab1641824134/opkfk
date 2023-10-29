@@ -1,0 +1,53 @@
+[general]
+excluded_routes=192.168.0.0/16, 172.16.0.0/12, 100.64.0.0/10, 10.0.0.0/8
+geo_location_checker=http://ip-api.com/json/?lang=zh-CN, https://github.com/KOP-XIAO/QuantumultX/raw/master/Scripts/IP_API.js
+network_check_url=http://www.baidu.com/
+server_check_url=http://www.gstatic.com/generate_204
+
+[dns]
+server=119.29.29.29
+server=223.5.5.5
+server=1.0.0.1
+server=8.8.8.8
+
+[policy]
+static=🚀 节点选择, ♻️ 自动选择, DIRECT, Reality客户端：clashmeta、v2rayng、ios小火箭, 🇨🇳 台湾 | 80 | TCP | Netflix, 🇭🇰 香港3 | 80 | WS | Netflix, 🇸🇬 Az新加坡2 | 80 | WS |, 🇺🇸 Opc | 80 | WS | 美国, 🇯🇵 Opc日本 | 80 | WS | Netflix, 🇯🇵 Lin日本 | 8443 | | Kcp |, 🇺🇸 Opc美国1  | 中转 |
+url-latency-benchmark=♻️ 自动选择, Reality客户端：clashmeta、v2rayng、ios小火箭, 🇨🇳 台湾 | 80 | TCP | Netflix, 🇭🇰 香港3 | 80 | WS | Netflix, 🇸🇬 Az新加坡2 | 80 | WS |, 🇺🇸 Opc | 80 | WS | 美国, 🇯🇵 Opc日本 | 80 | WS | Netflix, 🇯🇵 Lin日本 | 8443 | | Kcp |, 🇺🇸 Opc美国1  | 中转 |, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Auto.png, check-interval=300, tolerance=50
+static=🎯 全球直连, DIRECT, 🚀 节点选择, ♻️ 自动选择, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Direct.png
+static=🛑 全球拦截, REJECT, DIRECT, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Advertising.png
+static=🐟 漏网之鱼, 🚀 节点选择, 🎯 全球直连, ♻️ 自动选择, Reality客户端：clashmeta、v2rayng、ios小火箭, 🇨🇳 台湾 | 80 | TCP | Netflix, 🇭🇰 香港3 | 80 | WS | Netflix, 🇸🇬 Az新加坡2 | 80 | WS |, 🇺🇸 Opc | 80 | WS | 美国, 🇯🇵 Opc日本 | 80 | WS | Netflix, 🇯🇵 Lin日本 | 8443 | | Kcp |, 🇺🇸 Opc美国1  | 中转 |, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Final.png
+
+[server_remote]
+
+[filter_remote]
+http://hk.awook.online:25500/getruleset?type=2&url=aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL0FDTDRTU1IvQUNMNFNTUi9tYXN0ZXIvQ2xhc2gvTG9jYWxBcmVhTmV0d29yay5saXN0&group=8J-OryDlhajnkIPnm7Tov54, tag=🎯 全球直连, enabled=true
+http://hk.awook.online:25500/getruleset?type=2&url=aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL0FDTDRTU1IvQUNMNFNTUi9tYXN0ZXIvQ2xhc2gvVW5CYW4ubGlzdA&group=8J-OryDlhajnkIPnm7Tov54, tag=🎯 全球直连, enabled=true
+http://hk.awook.online:25500/getruleset?type=2&url=aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL0FDTDRTU1IvQUNMNFNTUi9tYXN0ZXIvQ2xhc2gvQmFuQUQubGlzdA&group=8J-bkSDlhajnkIPmi6bmiKo, tag=🛑 全球拦截, enabled=true
+http://hk.awook.online:25500/getruleset?type=2&url=aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL0FDTDRTU1IvQUNMNFNTUi9tYXN0ZXIvQ2xhc2gvQmFuUHJvZ3JhbUFELmxpc3Q&group=8J-bkSDlhajnkIPmi6bmiKo, tag=🛑 全球拦截, enabled=true
+http://hk.awook.online:25500/getruleset?type=2&url=aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL0FDTDRTU1IvQUNMNFNTUi9tYXN0ZXIvQ2xhc2gvR29vZ2xlQ04ubGlzdA&group=8J-OryDlhajnkIPnm7Tov54, tag=🎯 全球直连, enabled=true
+http://hk.awook.online:25500/getruleset?type=2&url=aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL0FDTDRTU1IvQUNMNFNTUi9tYXN0ZXIvQ2xhc2gvUnVsZXNldC9TdGVhbUNOLmxpc3Q&group=8J-OryDlhajnkIPnm7Tov54, tag=🎯 全球直连, enabled=true
+http://hk.awook.online:25500/getruleset?type=2&url=aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL0FDTDRTU1IvQUNMNFNTUi9tYXN0ZXIvQ2xhc2gvVGVsZWdyYW0ubGlzdA&group=8J-agCDoioLngrnpgInmi6k, tag=🚀 节点选择, enabled=true
+http://hk.awook.online:25500/getruleset?type=2&url=aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL0FDTDRTU1IvQUNMNFNTUi9tYXN0ZXIvQ2xhc2gvUHJveHlNZWRpYS5saXN0&group=8J-agCDoioLngrnpgInmi6k, tag=🚀 节点选择, enabled=true
+http://hk.awook.online:25500/getruleset?type=2&url=aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL0FDTDRTU1IvQUNMNFNTUi9tYXN0ZXIvQ2xhc2gvUHJveHlMaXRlLmxpc3Q&group=8J-agCDoioLngrnpgInmi6k, tag=🚀 节点选择, enabled=true
+http://hk.awook.online:25500/getruleset?type=2&url=aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL0FDTDRTU1IvQUNMNFNTUi9tYXN0ZXIvQ2xhc2gvQ2hpbmFEb21haW4ubGlzdA&group=8J-OryDlhajnkIPnm7Tov54, tag=🎯 全球直连, enabled=true
+http://hk.awook.online:25500/getruleset?type=2&url=aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL0FDTDRTU1IvQUNMNFNTUi9tYXN0ZXIvQ2xhc2gvQ2hpbmFDb21wYW55SXAubGlzdA&group=8J-OryDlhajnkIPnm7Tov54, tag=🎯 全球直连, enabled=true
+
+[rewrite_remote]
+
+[server_local]
+vmess = 1aa446879971445766cdf92fae0fa673.n40.kkyml.ningmengshui.cyou:80, method=chacha20-ietf-poly1305, password=5cd6d061-5c19-47bf-baf6-c432c08e9640, fast-open=false, udp-relay=true, tag=🇨🇳 台湾 | 80 | TCP | Netflix
+vmess = hk3g.xn--vhq70hxyat50h6wk.quick-connect.buzz:80, method=chacha20-ietf-poly1305, password=5cd6d061-5c19-47bf-baf6-c432c08e9640, obfs=ws, obfs-host=log.snssdk.com, obfs-uri=/, fast-open=false, udp-relay=true, tag=🇭🇰 香港3 | 80 | WS | Netflix
+vmess = sg2g.xn--vhq70hxyat50h6wk.quick-connect.buzz:80, method=chacha20-ietf-poly1305, password=5cd6d061-5c19-47bf-baf6-c432c08e9640, obfs=ws, obfs-host=log.snssdk.com, obfs-uri=/, fast-open=false, udp-relay=true, tag=🇸🇬 Az新加坡2 | 80 | WS |
+vmess = us1.ningmengshui.cyou:80, method=chacha20-ietf-poly1305, password=5cd6d061-5c19-47bf-baf6-c432c08e9640, obfs=ws, obfs-host=log.snssdk.com, obfs-uri=/, fast-open=false, udp-relay=true, tag=🇺🇸 Opc | 80 | WS | 美国
+vmess = opc.jp.quick-connect.buzz:80, method=chacha20-ietf-poly1305, password=5cd6d061-5c19-47bf-baf6-c432c08e9640, obfs=ws, obfs-host=log.snssdk.com, obfs-uri=/, fast-open=false, udp-relay=true, tag=🇯🇵 Opc日本 | 80 | WS | Netflix
+vmess = 172.233.82.36:8443, method=chacha20-ietf-poly1305, password=5cd6d061-5c19-47bf-baf6-c432c08e9640, fast-open=false, udp-relay=true, tag=🇯🇵 Lin日本 | 8443 | | Kcp |
+vmess = zfc.windowsupdate1.com:80, method=chacha20-ietf-poly1305, password=5cd6d061-5c19-47bf-baf6-c432c08e9640, obfs=ws, obfs-host=log.snssdk.com, obfs-uri=/, fast-open=false, udp-relay=true, tag=🇺🇸 Opc美国1  | 中转 |
+
+[filter_local]
+GEOIP,CN,🎯 全球直连
+FINAL,🐟 漏网之鱼
+
+[rewrite_local]
+
+[mitm]
+
