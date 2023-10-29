@@ -11,11 +11,11 @@ server=1.0.0.1
 server=8.8.8.8
 
 [policy]
-static=🚀 节点选择, ♻️ 自动选择, DIRECT, 🇨🇳 台湾 | 80 | TCP | Netflix, 🇭🇰 香港3 | 80 | WS | Netflix, 🇸🇬 Az新加坡2 | 80 | WS |, 🇺🇸 Opc | 80 | WS | 美国, 🇯🇵 Opc日本 | 80 | WS | Netflix, 🇯🇵 Lin日本 | 8443 | | Kcp |, 🇺🇸 Opc美国1  | 中转 |
-url-latency-benchmark=♻️ 自动选择, 🇨🇳 台湾 | 80 | TCP | Netflix, 🇭🇰 香港3 | 80 | WS | Netflix, 🇸🇬 Az新加坡2 | 80 | WS |, 🇺🇸 Opc | 80 | WS | 美国, 🇯🇵 Opc日本 | 80 | WS | Netflix, 🇯🇵 Lin日本 | 8443 | | Kcp |, 🇺🇸 Opc美国1  | 中转 |, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Auto.png, check-interval=300, tolerance=50
+static=🚀 节点选择, ♻️ 自动选择, DIRECT, 🇭🇰 香港3 | 80 | WS | Netflix, 🇸🇬 Az新加坡2 | 80 | WS |, 🇺🇸 Opc | 80 | WS | 美国, 🇯🇵 Opc日本 | 80 | WS | Netflix, 🇺🇸 Opc美国1  | 中转 |
+url-latency-benchmark=♻️ 自动选择, 🇭🇰 香港3 | 80 | WS | Netflix, 🇸🇬 Az新加坡2 | 80 | WS |, 🇺🇸 Opc | 80 | WS | 美国, 🇯🇵 Opc日本 | 80 | WS | Netflix, 🇺🇸 Opc美国1  | 中转 |, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Auto.png, check-interval=300, tolerance=50
 static=🎯 全球直连, DIRECT, 🚀 节点选择, ♻️ 自动选择, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Direct.png
 static=🛑 全球拦截, REJECT, DIRECT, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Advertising.png
-static=🐟 漏网之鱼, 🚀 节点选择, 🎯 全球直连, ♻️ 自动选择, 🇨🇳 台湾 | 80 | TCP | Netflix, 🇭🇰 香港3 | 80 | WS | Netflix, 🇸🇬 Az新加坡2 | 80 | WS |, 🇺🇸 Opc | 80 | WS | 美国, 🇯🇵 Opc日本 | 80 | WS | Netflix, 🇯🇵 Lin日本 | 8443 | | Kcp |, 🇺🇸 Opc美国1  | 中转 |, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Final.png
+static=🐟 漏网之鱼, 🚀 节点选择, 🎯 全球直连, ♻️ 自动选择, 🇭🇰 香港3 | 80 | WS | Netflix, 🇸🇬 Az新加坡2 | 80 | WS |, 🇺🇸 Opc | 80 | WS | 美国, 🇯🇵 Opc日本 | 80 | WS | Netflix, 🇺🇸 Opc美国1  | 中转 |, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Final.png
 
 [server_remote]
 
@@ -35,12 +35,10 @@ http://hk.awook.online:25500/getruleset?type=2&url=aHR0cHM6Ly9yYXcuZ2l0aHVidXNlc
 [rewrite_remote]
 
 [server_local]
-vmess = 1aa446879971445766cdf92fae0fa673.n40.kkyml.ningmengshui.cyou:80, method=chacha20-ietf-poly1305, password=5cd6d061-5c19-47bf-baf6-c432c08e9640, fast-open=false, udp-relay=true, tag=🇨🇳 台湾 | 80 | TCP | Netflix
 vmess = hk3g.xn--vhq70hxyat50h6wk.quick-connect.buzz:80, method=chacha20-ietf-poly1305, password=5cd6d061-5c19-47bf-baf6-c432c08e9640, obfs=ws, obfs-host=log.snssdk.com, obfs-uri=/, fast-open=false, udp-relay=true, tag=🇭🇰 香港3 | 80 | WS | Netflix
 vmess = sg2g.xn--vhq70hxyat50h6wk.quick-connect.buzz:80, method=chacha20-ietf-poly1305, password=5cd6d061-5c19-47bf-baf6-c432c08e9640, obfs=ws, obfs-host=log.snssdk.com, obfs-uri=/, fast-open=false, udp-relay=true, tag=🇸🇬 Az新加坡2 | 80 | WS |
 vmess = us1.ningmengshui.cyou:80, method=chacha20-ietf-poly1305, password=5cd6d061-5c19-47bf-baf6-c432c08e9640, obfs=ws, obfs-host=log.snssdk.com, obfs-uri=/, fast-open=false, udp-relay=true, tag=🇺🇸 Opc | 80 | WS | 美国
 vmess = opc.jp.quick-connect.buzz:80, method=chacha20-ietf-poly1305, password=5cd6d061-5c19-47bf-baf6-c432c08e9640, obfs=ws, obfs-host=log.snssdk.com, obfs-uri=/, fast-open=false, udp-relay=true, tag=🇯🇵 Opc日本 | 80 | WS | Netflix
-vmess = 172.233.82.36:8443, method=chacha20-ietf-poly1305, password=5cd6d061-5c19-47bf-baf6-c432c08e9640, fast-open=false, udp-relay=true, tag=🇯🇵 Lin日本 | 8443 | | Kcp |
 vmess = zfc.windowsupdate1.com:80, method=chacha20-ietf-poly1305, password=5cd6d061-5c19-47bf-baf6-c432c08e9640, obfs=ws, obfs-host=log.snssdk.com, obfs-uri=/, fast-open=false, udp-relay=true, tag=🇺🇸 Opc美国1  | 中转 |
 
 [filter_local]
