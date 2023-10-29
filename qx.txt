@@ -11,11 +11,11 @@ server=1.0.0.1
 server=8.8.8.8
 
 [policy]
-static=🚀 节点选择, ♻️ 自动选择, DIRECT, Reality客户端：clashmeta、v2rayng、ios小火箭, 🇨🇳 台湾 | 80 | TCP | Netflix, 🇭🇰 香港3 | 80 | WS | Netflix, 🇸🇬 Az新加坡2 | 80 | WS |, 🇺🇸 Opc | 80 | WS | 美国, 🇯🇵 Opc日本 | 80 | WS | Netflix, 🇯🇵 Lin日本 | 8443 | | Kcp |, 🇺🇸 Opc美国1  | 中转 |
-url-latency-benchmark=♻️ 自动选择, Reality客户端：clashmeta、v2rayng、ios小火箭, 🇨🇳 台湾 | 80 | TCP | Netflix, 🇭🇰 香港3 | 80 | WS | Netflix, 🇸🇬 Az新加坡2 | 80 | WS |, 🇺🇸 Opc | 80 | WS | 美国, 🇯🇵 Opc日本 | 80 | WS | Netflix, 🇯🇵 Lin日本 | 8443 | | Kcp |, 🇺🇸 Opc美国1  | 中转 |, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Auto.png, check-interval=300, tolerance=50
+static=🚀 节点选择, ♻️ 自动选择, DIRECT,  🇨🇳 台湾 | 80 | TCP | Netflix, 🇭🇰 香港3 | 80 | WS | Netflix, 🇸🇬 Az新加坡2 | 80 | WS |, 🇺🇸 Opc | 80 | WS | 美国, 🇯🇵 Opc日本 | 80 | WS | Netflix, 🇯🇵 Lin日本 | 8443 | | Kcp |, 🇺🇸 Opc美国1  | 中转 |
+url-latency-benchmark=♻️ 自动选择,  🇨🇳 台湾 | 80 | TCP | Netflix, 🇭🇰 香港3 | 80 | WS | Netflix, 🇸🇬 Az新加坡2 | 80 | WS |, 🇺🇸 Opc | 80 | WS | 美国, 🇯🇵 Opc日本 | 80 | WS | Netflix, 🇯🇵 Lin日本 | 8443 | | Kcp |, 🇺🇸 Opc美国1  | 中转 |, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Auto.png, check-interval=300, tolerance=50
 static=🎯 全球直连, DIRECT, 🚀 节点选择, ♻️ 自动选择, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Direct.png
 static=🛑 全球拦截, REJECT, DIRECT, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Advertising.png
-static=🐟 漏网之鱼, 🚀 节点选择, 🎯 全球直连, ♻️ 自动选择, Reality客户端：clashmeta、v2rayng、ios小火箭, 🇨🇳 台湾 | 80 | TCP | Netflix, 🇭🇰 香港3 | 80 | WS | Netflix, 🇸🇬 Az新加坡2 | 80 | WS |, 🇺🇸 Opc | 80 | WS | 美国, 🇯🇵 Opc日本 | 80 | WS | Netflix, 🇯🇵 Lin日本 | 8443 | | Kcp |, 🇺🇸 Opc美国1  | 中转 |, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Final.png
+static=🐟 漏网之鱼, 🚀 节点选择, 🎯 全球直连, ♻️ 自动选择,🇨🇳 台湾 | 80 | TCP | Netflix, 🇭🇰 香港3 | 80 | WS | Netflix, 🇸🇬 Az新加坡2 | 80 | WS |, 🇺🇸 Opc | 80 | WS | 美国, 🇯🇵 Opc日本 | 80 | WS | Netflix, 🇯🇵 Lin日本 | 8443 | | Kcp |, 🇺🇸 Opc美国1  | 中转 |, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Final.png
 
 [server_remote]
 
